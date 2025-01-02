@@ -1,3 +1,5 @@
+@use 'helpers' as *;
+
 body {
 	@include fluid-text(16, 14);
 
@@ -19,20 +21,20 @@ svg * {
 a {
 	text-decoration: none;
 	color: inherit;
- }
+}
 
- h1 {
+h1 {
 	@include fluid-text(54, 32);
- }
+}
  
- h2 {
+h2 {
 	@include fluid-text(48, 28);
- }
+}
  
- h3 {
+h3 {
 	@include fluid-text(32, 24);
- }
+}
  
- h4 {
+h4 {
 	@include fluid-text(24, 18);
- }
+}

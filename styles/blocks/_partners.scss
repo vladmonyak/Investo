@@ -1,3 +1,5 @@
+@use '../helpers' as *;
+
 .partners {	
 	&__title {
 		@include fluid-text(24, 18);

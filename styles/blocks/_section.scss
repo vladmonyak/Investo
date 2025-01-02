@@ -1,3 +1,5 @@
+@use '../helpers' as *;
+
 .section {
 	overflow: hidden;
 	padding-block: var(--section-padding-y);

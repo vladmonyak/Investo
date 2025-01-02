@@ -1,9 +1,0 @@
-.section {
-	overflow: hidden;
-	padding-block: var(--section-padding-y);
-
-	&:first-of-type {
-		overflow: visible;
-		padding-top: var(--first-section-padding-top);
-	}
-}
