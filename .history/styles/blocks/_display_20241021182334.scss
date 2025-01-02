@@ -1,0 +1,16 @@
+.display {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&__image {
+		position: relative;
+		margin: 0 auto;
+	}
+
+	&__ptale {
+		position: absolute;
+		margin-top: 16px;
+		margin-right: 74px;
+	}
+}

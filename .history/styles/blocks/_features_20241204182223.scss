@@ -1,0 +1,32 @@
+.features {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	&__body {
+		display: flex;
+		flex-direction: column;
+		row-gap: 40px;
+		max-width: 480px;
+	}
+
+	&__text {
+		max-width: 450px;
+	}
+
+	&__title {
+		font-family: var(--font-family-accent);
+		margin-bottom: 16px;
+	}
+
+	&__description {
+		color: var(--color-gray);
+	}
+
+	&__list {
+		display: flex;
+		flex-direction: column;
+		row-gap: 32px;
+	}
+
+}

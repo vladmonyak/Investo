@@ -1,0 +1,13 @@
+.features {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+	&__body {
+		max-width: 505px;
+	}
+
+	&__list {
+	}
+}

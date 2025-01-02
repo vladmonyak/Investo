@@ -1,0 +1,15 @@
+.features {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+	&__body {
+		display: flex;
+		flex-direction: column;
+		max-width: 505px;
+	}
+
+	&__list {
+	}
+}

@@ -1,0 +1,17 @@
+.features {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	&__body {
+		display: flex;
+		flex-direction: column;
+		row-gap: 40px;
+		max-width: 505px;
+	}
+
+	&__text {
+		max-width: 460px;
+	}
+
+}

@@ -1,0 +1,31 @@
+.partners {
+	display: flex;
+	flex-direction: column;
+
+	&__title {
+		text-align: center;
+		font-family: var(--font-family-accent);
+		font-weight: 500;
+		margin-bottom: 10px;
+	}
+
+	&__list {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		column-gap: 70px;
+	}
+
+	&__item {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__image {
+		height: auto;
+	}
+
+	.partners__item:nth-of-type(n+6) { 
+		margin-top: -52px;
+	}
+}

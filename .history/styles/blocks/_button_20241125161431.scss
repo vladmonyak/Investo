@@ -1,0 +1,35 @@
+.button {
+	@include flex-center(true);
+
+	height: var(--button-height);
+	padding-inline: 32px;
+	font-family: var(--font-family-accent);
+	font-weight: 500;
+	color: var(--color-light);
+	background-color: var(--color-dark);
+	border-radius: var(--border-radius);
+
+	@include hover {
+		background-color: rgba(23, 23, 23, 0.9);
+	}
+
+	&--accent {
+		color: var(--color-dark);
+		background-color: var(--color-accent);
+		box-shadow: var(--shadow);
+		
+		@include hover {
+			background-color: #BEDB01;
+		}
+	}
+
+	&--accent-alt {
+		color: var(--color-light);
+		background-color: var(--color-accent-alt);
+		box-shadow: var(--shadow);
+			
+		@include hover {
+			background-color: rgba(89, 69, 253, 0.9);
+		}
+	}
+}

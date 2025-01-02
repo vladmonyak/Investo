@@ -1,0 +1,20 @@
+.features {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 160px;
+
+	&__body {
+		display: flex;
+		flex-direction: column;
+		row-gap: 40px;
+		max-width: 505px;
+	}
+
+	&__list {
+		display: flex;
+
+		row-gap: 32px;
+	}
+}

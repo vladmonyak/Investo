@@ -1,0 +1,9 @@
+.section {
+	overflow: hidden;
+	padding-block: var(--section-padding-y);
+
+	&:first-of-type {
+		max-height: 774px;
+		padding-top: var(--first-section-padding-top);
+	}
+}

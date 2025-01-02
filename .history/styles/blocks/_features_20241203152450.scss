@@ -1,0 +1,41 @@
+.features {
+	display: flex;
+	flex-direction: column;
+
+
+
+
+
+
+
+	&__text {
+		display: flex;
+		flex-direction: column;
+		row-gap: 16px;
+		margin-bottom: 40px;
+	}
+
+	&__list {
+		display: flex;
+		flex-direction: column;
+		row-gap: 32px;
+	}
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+
+		&::before {
+
+		}
+
+		&-title {
+			font-family: var(--font-family-accent);
+			font-weight: 600;
+		}
+
+		&-description {
+			color: var(--color-gray);
+		}
+	}
+}

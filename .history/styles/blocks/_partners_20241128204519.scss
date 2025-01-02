@@ -1,0 +1,24 @@
+.partners {
+	display: flex;
+	flex-direction: column;
+
+	&__title {
+		@include fluid-text(24, 18);
+		
+		text-align: center;
+		font-family: var(--font-family-accent);
+		font-weight: 500;
+		margin-bottom: 10px;
+	}
+
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0 70px;
+	}
+
+	&__item {
+		flex: 0 0 auto;
+		margin-bottom: -52px;
+	}
+}

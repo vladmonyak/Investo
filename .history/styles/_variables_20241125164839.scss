@@ -1,0 +1,44 @@
+:root {
+	--color-light: #FFFFFF;
+	--color-dark: #171717;
+	--color-accent: #D1F701;
+	--color-accent-hover: #C2F90D;
+	--color-accent-alt: #5945FD;
+	--color-accent-alt-hover: #6D45FD;
+	--color-gray: #595959;
+	--color-gray-alt: #383838;
+	--color-light-gray: #E3E3E3;
+	--color-soft-gray: #E9E9EB;
+	--color-soft-gray-alt: #E9E9E9;
+	--color-cold-gray: #ADB1C7;
+	--color-light-orange: #FFB533;
+	--color-green: #1AD05C;
+	--color-soft-white: #F3F3F5;
+	--color-cold-white: #F0F0F2;
+	--color-cold-white-alt: #F1F5F9;
+	--color-dark-shadow: rgba(0, 0, 0, 0.06);
+	--color-dark-shadow-alt: rgba(0, 0, 0, 0.15);
+
+	--border: 1.5px solid var(--color-soft-gray);
+	--border-radius: 100px;
+	--border-radius-large: 40px;
+	--border-radius-medium: 24px;
+	--border-radius-small: 20px;
+
+	--shadow: 4px 11px 24px 0 var(--color-dark-shadow);
+	--shadow-alt: 7px 11px 28px 0 var(--color-dark-shadow);
+	--shadow-large: 20px 20px 40px 0 var(--color-dark-shadow-alt);
+	--shadow-medium: 14px 15px 32px 0 var(--color-dark-shadow-alt);
+
+	--font-family-base: 'Inter', sans-serif;
+	--font-family-accent: 'Manrope', sans-serif;
+
+	--container-width: 1240px;
+	--container-padding-x: 24px;
+
+	--section-padding-y: 60px;
+
+	--button-height: 50px;
+
+	--transition-duration: 0.2s;
+}

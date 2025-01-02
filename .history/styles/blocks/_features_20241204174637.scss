@@ -1,0 +1,17 @@
+.features {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	&__body {
+		display: flex;
+		row-gap: 40px;
+		max-width: 505px;
+	}
+
+	&__list {
+		display: flex;
+		flex-direction: column;
+		row-gap: 32px;
+	}
+}

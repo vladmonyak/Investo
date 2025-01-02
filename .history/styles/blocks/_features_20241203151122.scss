@@ -1,0 +1,24 @@
+.features {
+	display: flex;
+	flex-direction: column;
+
+
+
+
+
+
+
+
+
+
+
+	&__list {
+		display: flex;
+		flex-direction: column;
+		row-gap: 32px;
+	}
+
+
+	&__item {
+	}
+}

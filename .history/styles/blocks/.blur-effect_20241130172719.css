@@ -1,0 +1,9 @@
+.blur-effect {
+  position: absolute;
+  top: 146px;
+  width: 1240px;
+  height: 212px;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  background: linear-gradient(180deg, rgba(243, 243, 245, 0), rgba(243, 243, 245, 0.3) 47.99%, rgb(243, 243, 245) 100%);
+}/*# sourceMappingURL=.blur-effect_20241130172719.css.map */

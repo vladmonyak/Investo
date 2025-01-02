@@ -1,0 +1,22 @@
+.features {
+	display: flex;
+	align-items: center;
+	column-gap: 160px;
+
+	&__body {
+		display: flex;
+		flex-direction: column;
+		row-gap: 40px;
+		max-width: 505px;
+	}
+
+	&__list {
+		display: flex;
+		flex-direction: column;
+		row-gap: 32px;
+	}
+
+	&__item-wrapper {
+		display: flex;
+	}
+}

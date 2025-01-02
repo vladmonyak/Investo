@@ -1,0 +1,14 @@
+.logo {
+	display: flex;
+
+	&__image {
+		margin-right: 12px;
+	}
+
+	&__text {
+		font-family: var(--font-family-accent);
+		font-size: 20px;
+		font-weight: 600;
+		color: var(--color-light);
+	}
+}

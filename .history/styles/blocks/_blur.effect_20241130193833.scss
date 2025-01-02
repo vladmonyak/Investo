@@ -1,0 +1,9 @@
+.blur-effect {
+	position: absolute;
+	top: 710px;
+	width: 1240px;
+	height: 212px;
+	margin: 0 auto;
+	backdrop-filter: blur(2px);
+	background: linear-gradient(180.00deg, rgba(243, 243, 245, 0),rgba(243, 243, 245, 0.3) 47.99%,rgb(243, 243, 245) 100%);
+}

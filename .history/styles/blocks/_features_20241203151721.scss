@@ -1,0 +1,28 @@
+.features {
+	display: flex;
+	flex-direction: column;
+
+
+
+
+
+
+
+	&__text {
+		display: flex;
+		flex-direction: column;
+		row-gap: 40px;
+	}
+
+
+
+	&__list {
+		display: flex;
+		flex-direction: column;
+		row-gap: 16px;
+	}
+
+
+	&__item {
+	}
+}

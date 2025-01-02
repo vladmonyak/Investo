@@ -1,0 +1,25 @@
+.features {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+
+
+
+
+
+
+
+
+
+
+	&__list {
+
+	}
+
+
+	&__item {
+		display: flex;
+		row-gap: 32px;
+	}
+}

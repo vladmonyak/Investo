@@ -1,0 +1,32 @@
+.header {
+	padding-top: 32px;
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 12px 32px;
+		background-color: var(--color-dark);
+		border-radius: var(--border-radius);
+	}
+
+	&__menu {
+		color: var(--color-light);
+
+		&-list {
+			@include flex-center(true);
+
+			column-gap: 50px;
+		}
+
+		&-link {
+			@include flex-center;
+
+			@include hover {
+				opacity: 0.8;
+			}
+
+			height: 48px;
+		}
+	}
+}

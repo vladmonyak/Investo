@@ -1,0 +1,15 @@
+.display {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&__image {
+		position: relative;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__ptale {
+		position: absolute;
+	}
+}

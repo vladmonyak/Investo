@@ -1,0 +1,17 @@
+.partners {
+	display: flex;
+
+	&__title {
+		text-align: center;
+		font-family: var(--font-family-accent);
+		font-weight: 500;
+	}
+
+	&__list {
+		display: flex;
+
+		&:not(:last-child) {
+			margin-right: 70px;
+		}
+	}
+}

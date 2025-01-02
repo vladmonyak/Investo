@@ -1,0 +1,9 @@
+.partners {
+	display: flex;
+
+	&__title {
+		text-align: center;
+		font-family: var(--font-family-accent);
+		font-weight: 500;
+	}
+}
