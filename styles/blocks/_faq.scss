@@ -1,22 +1,86 @@
 @use '../helpers' as *;
 
 .faq {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
     &__content {
         display: flex;
         flex-direction: column;
         max-width: 324px;
+        row-gap: 40px;
     }
 
     &__intro {
         display: flex;
+        flex-direction: column;
+        max-width: 264px;
         row-gap: 16px;
+    }
+
+    &__label {
+        color: var(--color-gray);
     }
 
     &__title {
         font-family: var(--font-family-accent);
     }
 
+    &__info {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+    }
+
     &__text {
+        color: var(--color-gray);
         font-weight: 500;
+    }
+
+    &__link {
+        color: var(--color-accent-alt);
+        font-weight: 500;
+    }
+
+    &__list {
+        min-width: 730px;
+    }
+
+    &__item {
+        border-top: 1px solid var(--color-light-gray);
+
+        &:last-child {
+          border-bottom: 1px solid var(--color-light-gray);
+        }
+    }
+
+    &__accordion {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        padding: 32px 20px;
+
+        &-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        &-title {
+            font-family: var(--font-family-accent);
+            font-weight: 600;
+        }
+
+        &-indicator {
+            
+        }
+
+        &-body {
+            max-width: 540px;
+            color: var(--color-gray);
+        }
     }
 }

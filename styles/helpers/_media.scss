@@ -1,4 +1,4 @@
-@use 'helpers' as *;
+@use "./mixins" as *;
 
 $desktop-above: 1281px;
 $desktop: 1280px;

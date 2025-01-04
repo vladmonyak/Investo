@@ -1,0 +1,50 @@
+@use '../helpers' as *;
+
+.transfer-features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__body {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        row-gap: 32px;
+        max-width: 440px;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+    }
+
+    &__title {
+        font-family: var(--font-family-accent);
+    }
+
+    &__description {
+        color: var(--color-gray-alt);
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 12px;
+    }
+
+    &__item {
+
+    }
+
+    &__icon-wrapper {
+        @include square(24px);
+
+        color: var(--color-pale-gray);
+        border-radius: 50%
+    }
+
+    &__point {
+       color: var(--color-gray-alt); 
+    }
+}
