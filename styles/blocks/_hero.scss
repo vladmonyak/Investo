@@ -1,52 +1,62 @@
+@use '../helpers' as *;
+
 .hero {
 	display: flex;
 	flex-direction: column;
+	row-gap: 64px;
 	max-height: 632px;
 
-	&__content {
+	&__intro {
 		position: relative;
+		display: flex;
+		flex-direction: column;
+		row-gap: 24px;
 		max-width: 750px;
 		margin: 0 auto;
 		text-align: center;
 	}
 
+	&__text {
+		display: flex;
+		flex-direction: column;
+		row-gap: 12px;
+	}
+
 	&__slogan {
 		display: inline-flex;
 		align-items: center;
+		column-gap: 8px;
 		padding: 4px 12px 4px 4px;
-		margin-bottom: 12px;
 		font-family: var(--font-family-accent);
 		font-weight: 500;
-		background-color: var(--color-soft-gray-alt);  
-		border-radius: var(--border-radius);
+		background-color: var(--color-grey-400);  
+		border-radius: var(--border-radius-xxl);
 
 		&-icon-wrapper {
 			@include flex-center;
 			@include square(32px);
 
-			margin-right: 8px;
-			background-color: var(--color-light);
+			background-color: var(--color-white);
 			border-radius: 50%;
 		}
 	}
 
-	&__title {
-		margin-bottom: 16px;
-		font-family: var(--font-family-accent);
-		line-height: 1.24;
+	&__annotation {
+		display: flex;
+		flex-direction: column;
+		row-gap: 16px;
 	}
 
 	&__description {
 		max-width: 448px;
-		margin: 0 auto 24px;
-		color: var(--color-gray-alt);
+		margin: 0 auto;
+		color: var(--color-grey-1000);
 	}
 
 	&__actions {
 		display: flex;
 		justify-content: center;
 		column-gap: 16px;
-		margin-bottom: 64px;
 	}
 
 	&__media {

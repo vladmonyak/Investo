@@ -1,0 +1,10 @@
+@use '../helpers' as *;
+
+.burger-button {
+    @include flex-center;
+    @include square(40px);
+
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: var(--border-radius-xxl);
+}

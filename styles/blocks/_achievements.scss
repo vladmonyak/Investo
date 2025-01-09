@@ -1,0 +1,41 @@
+.achievements {
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        max-width: 290px;
+
+        &-header {
+            display: flex;
+            align-items: center;
+            column-gap: 12px;
+        }
+
+        &-images-wrapper {
+            display: flex;
+        }
+
+        &-image {
+            border-radius: 50%;
+            outline: 1.5px solid var(--color-light);
+
+            &:not(:first-child) {
+                margin-left: -8px;
+            }
+        }
+
+        &-title {
+            font-family: var(--font-family-accent);
+            font-weight: 600;
+        }
+
+        &-body {
+            color: var(--color-gray);
+        }
+    }
+}

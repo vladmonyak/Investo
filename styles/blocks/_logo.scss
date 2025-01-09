@@ -1,12 +1,28 @@
+@use '../helpers' as *;
+
 .logo {
 	display: flex;
 	align-items: center;
 	column-gap: 12px;
 
+	@include mobile {
+		column-gap: 8px
+	}
+
+	&__image {
+		@include mobile {
+			@include square(20px);
+		}
+	}
+
 	&__text {
 		font-family: var(--font-family-accent);
 		font-size: 20px;
-		font-weight: 600;
-		color: var(--color-light);
+		font-weight: 500;
+		color: var(--color-white);
+
+		@include mobile {
+			font-size: 16px;
+		}
 	}
 }

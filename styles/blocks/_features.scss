@@ -1,7 +1,9 @@
+@use '../helpers' as *;
+
 .features {
 	display: flex;
-	align-items: center;
 	justify-content: space-between;
+	align-items: center;
 
 	&__body {
 		display: flex;

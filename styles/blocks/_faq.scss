@@ -1,0 +1,109 @@
+@use '../helpers' as *;
+
+.faq {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 60px;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        max-width: 324px;
+    }
+
+    &__intro {
+        display: flex;
+        flex-direction: column;
+        max-width: 264px;
+        row-gap: 16px;
+    }
+
+    &__label {
+        color: var(--color-gray);
+    }
+
+    &__title {
+        font-family: var(--font-family-accent);
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+    }
+
+    &__text {
+        color: var(--color-gray);
+        font-weight: 500;
+    }
+
+    &__link {
+        color: var(--color-accent-alt);
+        font-weight: 500;
+    }
+
+    &__list {
+        min-width: 730px;
+    }
+
+    &__item {
+        border-top: var(--border-alt);
+
+        &:last-child {
+          border-bottom: var(--border-alt);
+        }
+    }
+
+    &__accordion {
+        --indicatorVerticalRotate: 90deg;
+
+        padding: 32px 20px;
+
+        &[open] {
+            --indicatorVerticalRotate: 0deg;
+        }
+
+        &-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        &-title {
+            font-family: var(--font-family-accent);
+            font-weight: 600;
+        }
+
+        &-indicator {
+            @include square(24px);
+
+            position: relative;
+
+            &::before,
+            &::after {
+                @include abs-center;
+
+                content: '';
+                position: absolute;
+                width: 70%;
+                height: 8%;
+                background-color: var(--color-dark);
+                border-radius: var(--border-radius);
+            }
+
+            &::after {
+                rotate: var(--indicatorVerticalRotate);
+                transition-duration: var(--transition-duration);
+            }
+        }
+
+        &-body {
+            max-width: 540px;
+            padding-top: 20px;
+            color: var(--color-gray);
+        }
+    }
+}
