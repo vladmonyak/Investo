@@ -1,0 +1,85 @@
+@use '../helpers' as *;
+
+.footer {
+    padding-top: 60px;
+
+    &__main {
+        display: flex;
+        align-items: start;
+        column-gap: 240px;
+    }
+
+    &__body {
+        min-width: 440px;
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        column-gap: 12px;
+
+        &-text {
+            font-family: var(--font-family-accent);
+            font-size: 26px;
+            font-weight: 600;
+        }
+    }
+
+    &__links-wrapper {
+        display: flex;
+        column-gap: 130px;
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+
+        &-title {
+            font-family: var(--font-family-accent);
+            font-weight: 700;
+        }
+
+        &-list {
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+        }
+    }
+
+    &__link {
+        color: var(--color-gray);
+    }
+
+    &__extra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 60px;
+        margin-top: 50px;
+        border-top: var(--border-alt);
+    }
+
+    &__copyright {
+        font-size: 15px;
+        color: var(--color-gray);
+    }
+
+    &__soc1als-list {
+        display: flex;
+        column-gap: 16px;
+    }
+
+    &__soc1als-item {
+        @include flex-center;
+        @include square(40px);
+
+        background-color: var(--color-pale-gray);
+        border-radius: 50%;
+    }
+
+
+
+
+}

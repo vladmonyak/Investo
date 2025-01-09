@@ -34,14 +34,17 @@
     }
 
     &__item {
-
+        display: flex;
+        align-items: center;
+        column-gap: 12px;
     }
 
     &__icon-wrapper {
+        @include flex-center;
         @include square(24px);
 
-        color: var(--color-pale-gray);
-        border-radius: 50%
+        background-color: var(--color-pale-gray);
+        border-radius: 50%;
     }
 
     &__point {

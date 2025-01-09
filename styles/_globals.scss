@@ -7,7 +7,7 @@ body {
 	font-weight: 400;
 	line-height: 1.28;
 	color: var(--color-dark);
-	background-color: var(--color-light);
+	background-color: var(--color-white);
 }
 
 a,
@@ -23,8 +23,18 @@ a {
 	color: inherit;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: var(--font-family-accent)	
+}
+
 h1 {
 	@include fluid-text(54, 32);
+
+	line-height: 1.24
 }
  
 h2 {
@@ -36,5 +46,9 @@ h3 {
 }
  
 h4 {
-	@include fluid-text(24, 18);
+	@include fluid-text(24, 20);
+}
+
+h5 {
+	@include fluid-text(20, 18);
 }

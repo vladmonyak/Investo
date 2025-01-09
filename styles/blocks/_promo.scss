@@ -1,0 +1,51 @@
+@use '../helpers' as *;
+
+.promo {
+    padding: 100px 238px;
+    background-color: var(--color-dark);
+    border-radius: var(--border-radius-large) ;
+
+    &__body {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+        max-width: 764px;
+        text-align: center;
+    }
+
+    &__title {
+        font-family: var(--font-family-accent);
+        color: var(--color-light);
+    }
+
+    &__description {
+        max-width: 580px;
+        margin: 0 auto;
+        color: var(--color-fog-gray);
+    }
+
+    &__actions {
+        display: flex;
+        column-gap: 24px;
+    }
+
+    &__button {
+        &-body {
+            display: flex;
+            column-gap: 12px;
+        }
+
+        &-text {
+            display: flex;
+            flex-direction: column;
+            row-gap: 5px;
+        }
+    }
+}

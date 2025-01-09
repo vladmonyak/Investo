@@ -4,9 +4,10 @@
 @use 'utils';
 @use 'globals';
 
-@use 'blocks/button';
-@use 'blocks/header';
 @use 'blocks/logo';
+@use 'blocks/button';
+@use 'blocks/burger-button';
+@use 'blocks/header';
 @use 'blocks/plate';
 @use 'blocks/hero';
 @use 'blocks/partners';
@@ -14,4 +15,6 @@
 @use 'blocks/faq';
 @use 'blocks/achievements';
 @use 'blocks/transfer-features';
+@use 'blocks/promo';
+@use 'blocks/footer';
 @use 'blocks/section';
